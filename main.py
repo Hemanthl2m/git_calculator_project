@@ -1,4 +1,4 @@
-from operations import add, subtract
+from operations import add, subtract, multiply
 
 def main():
     print("Simple Calculator")
@@ -7,6 +7,7 @@ def main():
 
     print("Add:", add(a, b))
     print("Subtract:", subtract(a, b))
+    print("Multiply:", multiply(a, b))
 
 if __name__ == "__main__":
     main()
