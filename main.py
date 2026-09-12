@@ -1,0 +1,12 @@
+from operations import add, subtract
+
+def main():
+    print("Simple Calculator")
+    a = 10
+    b = 5
+
+    print("Add:", add(a, b))
+    print("Subtract:", subtract(a, b))
+
+if __name__ == "__main__":
+    main()
